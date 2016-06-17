@@ -15,6 +15,7 @@
 		A654AE0D1D12CD31000A72E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A654AE0B1D12CD31000A72E9 /* LaunchScreen.storyboard */; };
 		A654AE181D12CD31000A72E9 /* CY_AlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A654AE171D12CD31000A72E9 /* CY_AlertControllerTests.m */; };
 		A654AE231D12CD31000A72E9 /* CY_AlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A654AE221D12CD31000A72E9 /* CY_AlertControllerUITests.m */; };
+		A654AE321D12CDB5000A72E9 /* UIAlertController+CY__Encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = A654AE311D12CDB5000A72E9 /* UIAlertController+CY__Encapsulation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A654AE1E1D12CD31000A72E9 /* CY_AlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CY_AlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A654AE221D12CD31000A72E9 /* CY_AlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CY_AlertControllerUITests.m; sourceTree = "<group>"; };
 		A654AE241D12CD31000A72E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A654AE301D12CDB5000A72E9 /* UIAlertController+CY__Encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+CY__Encapsulation.h"; sourceTree = "<group>"; };
+		A654AE311D12CDB5000A72E9 /* UIAlertController+CY__Encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+CY__Encapsulation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A654AE011D12CD31000A72E9 /* AppDelegate.m */,
 				A654AE031D12CD31000A72E9 /* ViewController.h */,
 				A654AE041D12CD31000A72E9 /* ViewController.m */,
+				A654AE301D12CDB5000A72E9 /* UIAlertController+CY__Encapsulation.h */,
+				A654AE311D12CDB5000A72E9 /* UIAlertController+CY__Encapsulation.m */,
 				A654AE061D12CD31000A72E9 /* Main.storyboard */,
 				A654AE091D12CD31000A72E9 /* Assets.xcassets */,
 				A654AE0B1D12CD31000A72E9 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A654AE051D12CD31000A72E9 /* ViewController.m in Sources */,
+				A654AE321D12CDB5000A72E9 /* UIAlertController+CY__Encapsulation.m in Sources */,
 				A654AE021D12CD31000A72E9 /* AppDelegate.m in Sources */,
 				A654ADFF1D12CD31000A72E9 /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				A654AE291D12CD31000A72E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A654AE2A1D12CD31000A72E9 /* Build configuration list for PBXNativeTarget "CY_AlertControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				A654AE2C1D12CD31000A72E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A654AE2D1D12CD31000A72E9 /* Build configuration list for PBXNativeTarget "CY_AlertControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				A654AE2F1D12CD31000A72E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

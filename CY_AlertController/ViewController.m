@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIAlertController+CY__Encapsulation.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)btnaction:(id)sender {
+    
+    UIAlertController *alert = [UIAlertController AlertWithTitle:@"充实"
+                                                         message:@"消息"
+                                                     cancelTitle:@"取消"
+                                                destructiveTitle:@"destructive"
+                                                 completionBlock:^(UIAlertAction * _Nonnull action, NSInteger buttonIndex) {
+                                                     NSLog(@"buttonIndex = %ld",(long)buttonIndex);
+                                                 }
+                                                     otherTitles:@"1",@"2",nil];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 @end
